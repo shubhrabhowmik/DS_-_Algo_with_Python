@@ -197,45 +197,46 @@ class LinkedList:
 
          
 
-# my_linked_list = LinkedList(1)
-# my_linked_list.append(2)
-# my_linked_list.print_list()
-# print("---------")
+ my_linked_list = LinkedList(1)
+ my_linked_list.append(2)
+ my_linked_list.print_list()
+ print("---------")
 
-# # (2) items - returns 2 node
-# print(my_linked_list.pop())
-# # (1) item - returns 1 node
-# print(my_linked_list.pop())
-# # (0) item - return None
-# print(my_linked_list.pop())
-# print("-------")
+ # (2) items - returns 2 node
+ print(my_linked_list.pop())
+ # (1) item - returns 1 node
+ print(my_linked_list.pop())
+ # (0) item - return None
+ print(my_linked_list.pop())
+ print("-------")
 
-# my_linked_list = LinkedList(2)
-# my_linked_list.append(3)
-# my_linked_list.prepend(1)
-# my_linked_list.print_list()
+ my_linked_list = LinkedList(2)
+ my_linked_list.append(3)
+ my_linked_list.prepend(1)
+ my_linked_list.print_list()
 
-# # For Get method
-# my_linked_list = LinkedList(0)
-# my_linked_list.append(1)
-# my_linked_list.append(2)
-# my_linked_list.append(3)
+ # For Get method
+ my_linked_list = LinkedList(0)
+ my_linked_list.append(1)
+ my_linked_list.append(2)
+ my_linked_list.append(3)
 
-# print(my_linked_list.get(2))
+ print(my_linked_list.get(2))
 
 # For Set_value method
 my_linked_list = LinkedList(11)
 my_linked_list.append(3)
 my_linked_list.append(23)
 my_linked_list.append(7)
-# my_linked_list.insert(1,1)
-# my_linked_list.set_value(1,4)
+my_linked_list.insert(1,1)
+my_linked_list.set_value(1,4)
 my_linked_list.print_list()
 print("-------")
 
-# print(my_linked_list.remove(2), '\n')
-# my_linked_list.print_list()
+print(my_linked_list.remove(2), '\n')
+my_linked_list.print_list()
 
 # for reverse
 my_linked_list.reverse()
 print(my_linked_list.print_list())
+
